@@ -8,7 +8,7 @@ void bubbleSort (int totalPosition[])
     int contM = 0;
     int fondisti[ATLETI];
     int contF = 0;
-    for (int i = 0; i < ATLETI -1; i++)
+    for (int i = 0; i < ATLETI; i++)
     {
         if (atleti[i].Spec == 1)
         {
@@ -25,15 +25,14 @@ void bubbleSort (int totalPosition[])
                 }
     }
     int k = 0;
-    int i = 0;
-    totalPosition[k] = velocisti[i];
+
+    totalPosition[k] = fondisti[0];
     k++;
-    for (; i < contV -1; i++)
+    for (int i = 0; i < contV -1; i++)
     {
-        //posizioni tot
-        totalPosition[k] = velocisti[i];
+        totalPosition[k] = velocisti[i+1];
         k++;
-        for (int j = 0; j < TEMPI -1; j++)
+        for (int j = 0; j < TEMPI; j++)
         {
             if (atleti[velocisti[i+1]].tempo[j] < atleti[velocisti[i]].tempo[j])
             {
@@ -46,15 +45,13 @@ void bubbleSort (int totalPosition[])
         }
     }
 
-    i = 0;
-    totalPosition[k] = mezzodondo[i];
+    totalPosition[k] = mezzodondo[0];
     k++;
-    for (; i < contM -1; i++)
+    for (int i = 0; i < contM -1; i++)
     {
-        //posizioni tot
         totalPosition[k] = mezzodondo[i+1];
         k++;
-        for (int j = 0; j < TEMPI -1; j++)
+        for (int j = 0; j < TEMPI; j++)
         {
             if (atleti[mezzodondo[i+1]].tempo[j] < atleti[mezzodondo[i]].tempo[j])
             {
@@ -67,15 +64,13 @@ void bubbleSort (int totalPosition[])
         }
     }
 
-    i = 0;
-    totalPosition[k] = fondisti[i];
+    totalPosition[k] = fondisti[0];
     k++;
-    for (; i < contF -1; i++)
+    for (int i = 0; i < contF -1; i++)
     {
-        //posizioni tot
         totalPosition[k] = fondisti[i+1];
         k++;
-        for (int j = 0; j < TEMPI -1; j++)
+        for (int j = 0; j < TEMPI; j++)
         {
             if (atleti[fondisti[i+1]].tempo[j] < atleti[fondisti[i]].tempo[j])
             {

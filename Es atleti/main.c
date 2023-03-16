@@ -11,11 +11,6 @@ int main()
     puts("3");
     personalBest();
     puts("4");
-    for (int i = 0; i < 10; i++)
-    {
-        printf("i = %d\n", totalPosition[i]);
-    }
-    
     orderArray(totalPosition);
     puts("5");
     printFile(totalPosition);
