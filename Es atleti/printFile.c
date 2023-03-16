@@ -1,5 +1,6 @@
 #include "lib.h"
-void stampaFile(int ordinati[])
+
+void printFile(int ordinati[])
 {
     FILE* pf;
     pf=fopen("test.txt", "a");

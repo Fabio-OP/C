@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 #define ATLETI 10
 #define BATTERIE 6
@@ -29,8 +30,9 @@ typedef struct{
 
 Atleti atleti[ATLETI];
 
+void printFile (int []);
 void clearFile ();
-void generateData ();
-void bubbleSort (int []);
 void personalBest ();
-void printfFile();
+void generateData ();
+void orderArray (int []);
+void bubbleSort (int []);
