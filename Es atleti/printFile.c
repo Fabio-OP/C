@@ -29,13 +29,8 @@ void printFile(int ordinati[])
             puts("errore categoria\n");
             break;
         }
-        fprintf(pf, "tempo MIGLIORE: %f\n", atleti[ordinati[i]].pb);
-        fprintf(pf, "tempi: \n");
-        for (int j = 0; j < 5; j++)
-        {
-            fprintf(pf, "[%.2d] %.2f", j, atleti[ordinati[i]].tempo[j]);
-        }
-        fprintf(pf, "\n\n\n");
+        fprintf(pf, "tempo MIGLIORE: %.2f\n", atleti[ordinati[i]].pb);
+        fprintf(pf, "\n\n");
     }
     fclose(pf);
 }

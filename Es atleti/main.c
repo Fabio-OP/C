@@ -7,9 +7,9 @@ int main()
     generateData ();
     puts("2");
     int totalPosition[ATLETI];
-    bubbleSort(totalPosition);
-    puts("3");
     personalBest();
+    puts("3");
+    bubbleSort(totalPosition);
     puts("4");
     orderArray(totalPosition);
     puts("5");

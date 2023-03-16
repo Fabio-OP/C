@@ -2,12 +2,13 @@
 
 void personalBest ()
 {
+    float min;
     for (int i = 0; i < ATLETI; i++)
     {
-        int min = 0;
-        for (int j = 0; j < TEMPI -1; j++)
+        min = atleti[i].tempo[0];
+        for (int j = 1; j < TEMPI; j++)
         {
-            if (atleti[i].tempo[j] < atleti[i].tempo[j])    min = atleti[i].tempo[j];
+            if (min > atleti[i].tempo[j])    min = atleti[i].tempo[j];
         }
         atleti[i].pb = min;
     }
