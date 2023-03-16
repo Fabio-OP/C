@@ -12,5 +12,4 @@ void personalBest ()
         }
         atleti[i].pb = min;
     }
-    
 }

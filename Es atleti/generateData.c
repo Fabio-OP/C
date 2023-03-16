@@ -23,5 +23,4 @@ void generateData ()
             atleti[i].tempo[j] += temp;
         }
     }
-    
 }
