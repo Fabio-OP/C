@@ -1,70 +1,270 @@
 nome cognome
-smwcsheskvnkei nhbgfwcxgewhkh
-anno di nascita: 2002
+gifxuieucxbdoq lxpkxrcfucehcr
+anno di nascita: 1971
 specialita: VELOCISTA
-tempo MIGLIORE: 34.58
+Tempo MIGLIORE: 33.20
+Batteria: 1
+Corsia: 1
 
 
 nome cognome
-rgqroougyrfqjg elfjmtssvrehxe
-anno di nascita: 1979
+haegaheucgaivn ecpcwtsfsjpuau
+anno di nascita: 1996
 specialita: VELOCISTA
-tempo MIGLIORE: 82.47
+Tempo MIGLIORE: 34.34
+Batteria: 1
+Corsia: 2
 
 
 nome cognome
-btydndoolalyta fddohnegkeigvd
-anno di nascita: 1992
-specialita: MEZZOFONDISTA
-tempo MIGLIORE: 35.50
-
-
-nome cognome
-pksgdpowpupemq rwfjxdvycsavlu
-anno di nascita: 2000
-specialita: MEZZOFONDISTA
-tempo MIGLIORE: 36.40
-
-
-nome cognome
-bgksrsugmyqhac mmdrqyfndgcpwj
+vhoulvdvqohmqh qpyqffxthhuwnb
 anno di nascita: 1998
-specialita: MEZZOFONDISTA
-tempo MIGLIORE: 40.55
+specialita: VELOCISTA
+Tempo MIGLIORE: 36.18
+Batteria: 1
+Corsia: 3
 
 
 nome cognome
-xrqwpmygrfpopj encsjvrkcchdnl
-anno di nascita: 1975
-specialita: MEZZOFONDISTA
-tempo MIGLIORE: 45.11
+jeirmlejccecat mswvbsamddhhee
+anno di nascita: 2000
+specialita: VELOCISTA
+Tempo MIGLIORE: 37.12
+Batteria: 1
+Corsia: 4
 
 
 nome cognome
-bgiipbjvygaoft rmbouyusrpgtst
-anno di nascita: 1989
+ibqkgcxwsikcqf jsbjllbfgqsbgk
+anno di nascita: 2012
+specialita: VELOCISTA
+Tempo MIGLIORE: 38.17
+Batteria: 1
+Corsia: 5
+
+
+nome cognome
+uqjxvvfkgrbsah khpdmenafhuivm
+anno di nascita: 1985
+specialita: VELOCISTA
+Tempo MIGLIORE: 40.05
+Batteria: 1
+Corsia: 6
+
+
+nome cognome
+ncoashkmhhxfbd plhruriqoptjju
+anno di nascita: 2010
+specialita: VELOCISTA
+Tempo MIGLIORE: 47.03
+Batteria: 2
+Corsia: 1
+
+
+nome cognome
+weilxrpmyojyua krwiuqekrhvgaf
+anno di nascita: 1976
+specialita: VELOCISTA
+Tempo MIGLIORE: 47.13
+Batteria: 2
+Corsia: 2
+
+
+nome cognome
+cbgfufolmgigwy kletqriqtceblx
+anno di nascita: 1977
+specialita: VELOCISTA
+Tempo MIGLIORE: 47.42
+Batteria: 2
+Corsia: 3
+
+
+nome cognome
+jspmnjafdkadwi gcmxkhlwltckjh
+anno di nascita: 1976
+specialita: VELOCISTA
+Tempo MIGLIORE: 60.13
+Batteria: 2
+Corsia: 4
+
+
+nome cognome
+hwjglsjqpmmrbo afsqcrndgirdfx
+anno di nascita: 1991
+specialita: VELOCISTA
+Tempo MIGLIORE: 71.24
+Batteria: 2
+Corsia: 5
+
+
+nome cognome
+bnxrvsbatxlgds oyuunsivqqgdkk
+anno di nascita: 1971
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 35.48
+Batteria: 1
+Corsia: 1
+
+
+nome cognome
+yiteekvjkcyihd wvvhwpmsnggugw
+anno di nascita: 1984
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 36.34
+Batteria: 1
+Corsia: 2
+
+
+nome cognome
+sddxawrdmhfctg lteqsbkwypqxwt
+anno di nascita: 1976
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 40.55
+Batteria: 1
+Corsia: 3
+
+
+nome cognome
+mxrgvfwpyurwsn ndgncfvpgujqqw
+anno di nascita: 2005
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 44.17
+Batteria: 1
+Corsia: 4
+
+
+nome cognome
+idkgcqwqpakyvj wwsolxfbnayfhp
+anno di nascita: 1993
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 50.02
+Batteria: 1
+Corsia: 5
+
+
+nome cognome
+mbtyigpoebmpjp tvqasrdnnkprmm
+anno di nascita: 1978
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 51.18
+Batteria: 1
+Corsia: 6
+
+
+nome cognome
+xaiynvglvpmowl mfbwtadjuaquem
+anno di nascita: 2012
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 61.35
+Batteria: 2
+Corsia: 1
+
+
+nome cognome
+cudbujwwuirhsw oipiiqkutknbox
+anno di nascita: 1997
+specialita: MEZZOFONDISTA
+Tempo MIGLIORE: 90.19
+Batteria: 2
+Corsia: 2
+
+
+nome cognome
+tlfgtqniacjvur hhctvfgaguolji
+anno di nascita: 2002
 specialita: FONDISTA
-tempo MIGLIORE: 31.36
+Tempo MIGLIORE: 32.02
+Batteria: 0
+Corsia: 0
 
 
 nome cognome
-sykvmmmuiwdwuy qfffewdhjqhvxb
+hxmweohyjcgrci qabkkdqnnxhnen
+anno di nascita: 1991
+specialita: FONDISTA
+Tempo MIGLIORE: 33.13
+Batteria: 0
+Corsia: 0
+
+
+nome cognome
+okussxbdbpdaft fhwlerhnptpisp
+anno di nascita: 1983
+specialita: FONDISTA
+Tempo MIGLIORE: 35.49
+Batteria: 1
+Corsia: 1
+
+
+nome cognome
+pqyfoqxxqdhula drcbrrydsdahkn
+anno di nascita: 1983
+specialita: FONDISTA
+Tempo MIGLIORE: 36.08
+Batteria: 1
+Corsia: 2
+
+
+nome cognome
+breifewpcnlgmb gqkvcffxrfhaoc
+anno di nascita: 1987
+specialita: FONDISTA
+Tempo MIGLIORE: 38.26
+Batteria: 1
+Corsia: 3
+
+
+nome cognome
+anubaylxegtxmu jayloqhhgktfxn
+anno di nascita: 1985
+specialita: FONDISTA
+Tempo MIGLIORE: 46.32
+Batteria: 1
+Corsia: 4
+
+
+nome cognome
+wilealqiahlnqa lkpbeblfulhijo
+anno di nascita: 2006
+specialita: FONDISTA
+Tempo MIGLIORE: 52.53
+Batteria: 1
+Corsia: 5
+
+
+nome cognome
+dfgxdmcapdhhea akawvbappgqocy
+anno di nascita: 1982
+specialita: FONDISTA
+Tempo MIGLIORE: 54.35
+Batteria: 1
+Corsia: 6
+
+
+nome cognome
+vfcocchqrplati daimhkmnuvxhfi
 anno di nascita: 2008
 specialita: FONDISTA
-tempo MIGLIORE: 39.51
+Tempo MIGLIORE: 67.21
+Batteria: 2
+Corsia: 1
 
 
 nome cognome
-dwattbhwjehiio neurdhsakxhoru
-anno di nascita: 1979
+vypyownflhpohl kxtrexatruhvyf
+anno di nascita: 1988
 specialita: FONDISTA
-tempo MIGLIORE: 53.37
+Tempo MIGLIORE: 87.29
+Batteria: 2
+Corsia: 2
 
 
 nome cognome
-xdlecpjshhokev sdgyjuvytwviyb
-anno di nascita: 1976
+cdmhjpimbiqvcr uqsxnewvpbxamq
+anno di nascita: 1995
 specialita: FONDISTA
-tempo MIGLIORE: 80.43
+Tempo MIGLIORE: 56.11
+Batteria: 2
+Corsia: 3
 
 

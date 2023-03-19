@@ -1,6 +1,6 @@
 #include "lib.h"
 
-void printFile(int ordinati[])
+void printFile()
 {
     FILE* pf;
     pf=fopen("test.txt", "a");
@@ -9,12 +9,12 @@ void printFile(int ordinati[])
         printf("File non trovato");
         exit(EXIT_FAILURE);
     }
-    for(int i = 0; i < 10; i++){
+    for(int i = 0; i < ATLETI; i++){
         fprintf(pf, "nome cognome\n");
-        fprintf(pf, "%s %s\n", atleti[ordinati[i]].anagrafica.nome, atleti[ordinati[i]].anagrafica.cognome);
-        fprintf(pf, "anno di nascita: %d\n", atleti[ordinati[i]].anagrafica.annoNascita);
+        fprintf(pf, "%s %s\n", atleti[i].anagrafica.nome, atleti[i].anagrafica.cognome);
+        fprintf(pf, "anno di nascita: %d\n", atleti[i].anagrafica.annoNascita);
         fprintf(pf, "specialita: ");
-        switch (atleti[ordinati[i]].Spec)
+        switch (atleti[i].Spec)
         {
         case 1:
             fprintf(pf, "VELOCISTA\n");
@@ -29,7 +29,9 @@ void printFile(int ordinati[])
             puts("errore categoria\n");
             break;
         }
-        fprintf(pf, "tempo MIGLIORE: %.2f\n", atleti[ordinati[i]].pb);
+        fprintf(pf, "Tempo MIGLIORE: %.2f\n", atleti[i].pb);
+        fprintf(pf, "Batteria: %d\n", atleti[i].batteria);
+        fprintf(pf, "Corsia: %d\n", atleti[i].corsia);
         fprintf(pf, "\n\n");
     }
     fclose(pf);

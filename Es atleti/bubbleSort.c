@@ -1,85 +1,56 @@
 #include "lib.h"
 
-void bubbleSort (int totalPosition[])
+void bubbleSort ()
 {
-    int velocisti[ATLETI];
-    int contV = 0;
-    int mezzodondo[ATLETI];
-    int contM = 0;
-    int fondisti[ATLETI];
-    int contF = 0;
-    for (int i = 0; i < ATLETI; i++)
+    int v = 0, m = 0, f = 0;
+    for (int i = 0; i < ATLETI - 1; i++)
     {
         if (atleti[i].Spec == 1)
         {
-            velocisti[contV] = i;
-            contV++;
+            v++;
         }else if (atleti[i].Spec == 2)
             {
-                mezzodondo[contM] = i;
-                contM++;
-            }else if (atleti[i].Spec == 3)
-                {
-                    fondisti[contF] = i;
-                    contF++;
-                }
+                m++;
+            }else   f++;   
     }
-    int k = 0;
-
-    totalPosition[k] = velocisti[0];
-    k++;
-    for (int i = 0; i < contV -1; i++)
+    for (int i = v-1; i > 0; i--)
     {
-        totalPosition[k] = velocisti[i+1];
-        k++;
-        for (int j = 0; j < TEMPI; j++)
+        for (int j = 0; j < i; j++)
         {
-            if (atleti[velocisti[i+1]].pb < atleti[velocisti[i]].pb)
+            if (atleti[j].pb > atleti[j+1].pb)
             {
-                //swap
                 Atleti temp;
-                temp = atleti[velocisti[i+1]];
-                atleti[velocisti[i+1]] = atleti[velocisti[i]];
-                atleti[velocisti[i]] = temp;
+                temp = atleti[j+1];
+                atleti[j+1] = atleti[j];
+                atleti[j] = temp;
             }
         }
     }
-
-    totalPosition[k] = mezzodondo[0];
-    k++;
-    for (int i = 0; i < contM -1; i++)
+    for (int i = m-1; i > 0; i--)
     {
-        totalPosition[k] = mezzodondo[i+1];
-        k++;
-        for (int j = 0; j < TEMPI; j++)
+        for (int j = 0; j < i; j++)
         {
-            if (atleti[mezzodondo[i+1]].pb < atleti[mezzodondo[i]].pb)
+            if (atleti[j+v].pb > atleti[j+v+1].pb)
             {
-                //swap
                 Atleti temp;
-                temp = atleti[mezzodondo[i+1]];
-                atleti[mezzodondo[i+1]] = atleti[mezzodondo[i]];
-                atleti[mezzodondo[i]] = temp;
+                temp = atleti[j+v+1];
+                atleti[j+v+1] = atleti[j+v];
+                atleti[j+v] = temp;
             }
         }
     }
-
-    totalPosition[k] = fondisti[0];
-    k++;
-    for (int i = 0; i < contF -1; i++)
+    for (int i = f-1; i > 0; i--)
     {
-        totalPosition[k] = fondisti[i+1];
-        k++;
-        for (int j = 0; j < TEMPI; j++)
+        for (int j = 0; j < i; j++)
         {
-            if (atleti[fondisti[i+1]].pb < atleti[fondisti[i]].pb)
+            if (atleti[j+v+m].pb > atleti[j+v+m+1].pb)
             {
-                //swap
                 Atleti temp;
-                temp = atleti[fondisti[i+1]];
-                atleti[fondisti[i+1]] = atleti[fondisti[i]];
-                atleti[fondisti[i]] = temp;
+                temp = atleti[j+v+m+1];
+                atleti[j+v+m+1] = atleti[j+v+m];
+                atleti[j+v+m] = temp;
             }
         }
     }
+    batterie(v, m, f);
 }

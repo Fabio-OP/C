@@ -1,14 +1,14 @@
 #include "lib.h"
 
-void orderArray (int totalPosition[])
+void orderArray ()
 {
-    Atleti swap[ATLETI];
-    for (int i = 0; i < ATLETI; i++)
-    {
-        swap[i] = atleti[totalPosition[i]];
-    }
-    for (int i = 0; i < ATLETI; i++)
-    {
-        atleti[totalPosition[i]] = swap[i];
+    for (int i = 0; i < ATLETI-1; i++) {
+        for (int j = i+1; j < ATLETI; j++) {
+            if (atleti[j].Spec < atleti[i].Spec) {
+                Atleti temp = atleti[i];
+                atleti[i] = atleti[j];
+                atleti[j] = temp;
+            }
+        }
     }
 }

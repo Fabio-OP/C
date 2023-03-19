@@ -3,8 +3,8 @@
 #include <string.h>
 #include <time.h>
 
-#define ATLETI 10
-#define BATTERIE 6
+#define ATLETI 30
+#define CORSIE 6
 #define TEMPI 5
 #define STRING_LENGTH 15
 
@@ -24,15 +24,17 @@ typedef struct{
     Anagrafica anagrafica;
     float tempo[TEMPI];
     int corsia;
+    int batteria;
     float pb;
     SPECIALITA Spec;
 }Atleti;
 
 Atleti atleti[ATLETI];
 
-void printFile (int []);
+void printFile ();
 void clearFile ();
 void personalBest ();
 void generateData ();
-void orderArray (int []);
-void bubbleSort (int []);
+void orderArray ();
+void bubbleSort ();
+void batterie (int , int , int);
