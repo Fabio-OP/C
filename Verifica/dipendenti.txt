@@ -1,0 +1,24 @@
+Nome: Mario
+Cognome: Rossi
+Anzianità: 5
+Stipendio: 1500€
+----------------------
+Nome: Marco
+Cognome: Bianchi
+Anzianità: 6
+Stipendio: 1580€
+----------------------
+Nome: Luigi
+Cognome: Gialli
+Anzianità: 4
+Stipendio: 1350€
+----------------------
+Nome: Andrea
+Cognome: Marroni
+Anzianità: 7
+Stipendio: 1750€
+----------------------
+Nome: Luca
+Cognome: Verdi
+Anzianità: 1
+Stipendio: 1250€

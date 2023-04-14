@@ -1,0 +1,41 @@
+Studente fabio maffio
+Voti:
+Materia italiano
+Scritto 	4.00
+Orale 		5.00
+
+Materia storia
+Scritto 	4.00
+Orale 		5.00
+geografia
+Scritto 	4.00
+Orale 		5.00
+matematica
+Scritto 	4.00
+Orale 		5.00
+schienze
+Scritto 	4.00
+Orale 		5.00
+
+Materia geografia
+Scritto 	4.00
+Orale 		5.00
+matematica
+Scritto 	4.00
+Orale 		5.00
+schienze
+Scritto 	4.00
+Orale 		5.00
+
+Materia matematica
+Scritto 	4.00
+Orale 		5.00
+schienze
+Scritto 	4.00
+Orale 		5.00
+
+Materia schienze
+Scritto 	5.00
+Orale 		4.00
+
+Studente migliore media generele fabio maffio
